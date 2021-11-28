@@ -32,12 +32,14 @@
     display: block;
     width: 500px;
     margin: 0 auto 0;
+    
 }
 
 .task {
     width: 56%;
     display: inline-block;
     flex-grow: 1;
+    text-transform: capitalize;
 }
 
 .task-row-wrapper {
@@ -161,13 +163,17 @@ img:hover {
 
 /* Completed */
 
-ul#completed-tasks 
+ul
+#completed-tasks 
 label {
     text-decoration: line-through color #888;
 }
 
 
 /* Edit Task */
+.edit {
+    text-transform: capitalize;
+}
 
 ul
 li 
